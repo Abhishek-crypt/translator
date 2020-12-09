@@ -1,0 +1,96 @@
+:root {
+    --red: #0788c4;
+    --black: #bb6f3c;
+    --medium-gray: #e4780d3b;
+    --off-white: #e3f5d9;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: var(--off-white);
+}
+
+h1 {
+    text-align: center;
+    padding: 0.5rem;
+    background: var(--black);
+    color: var(--gold);
+    border: 0.5rem solid var(--medium-gray);
+}
+
+#pirate{
+    max-width: 50%;
+    margin: auto;
+    display: block;
+}
+
+.container {
+    margin: auto;
+    padding: 1rem;
+    max-width: 600px;
+}
+
+#text-input {
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    padding: 1rem;
+}
+
+#btn-translate {
+    margin: 1rem 0;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    background-color: var(--black);
+    color: var(--gold);
+}
+
+.container h3 {
+    margin-top: 0;
+}
+
+#output-div {
+    display: block;
+    border: 1px solid;
+    min-height: 10vh;
+    max-height: 20vh;
+    width: 100%;
+    padding: 1rem;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    background: var(--black);
+    color: var(--gold);
+    border: 0.5rem solid var(--medium-gray);
+}
+
+footer p {
+    max-width: 600px;
+    margin: auto;
+    padding-top: 0.5rem;
+}
+
+footer a {
+    color: var(--gold);
+}
+
+.txtArea{
+    display:block;
+    width: 50%;
+
+}.txtArea{
+    display:block;
+    width: 50%;
+}
+
+
